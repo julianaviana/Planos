@@ -69,13 +69,13 @@
 
 
 ul li{
-  list-style-image: url('/assets/main/purple.svg');
+  list-style-image: url('./assets/main/purple.png');
   padding-top: 20px;
 }
 
 .ul-card-black li{
   /* list-style: none; */
-  list-style-image: url('/assets/main/black.svg');
+  list-style-image: url('./assets/main/black.png');
   padding-top: 20px;
 }
 
