@@ -69,12 +69,12 @@
 
 
 ul li{
-  list-style-image: url('/assets/main/img\ list.svg');
+  list-style-image: url('/assets/main/purple.svg');
   padding-top: 20px;
 }
 
 .ul-card-black li{
-  list-style-image: url('/assets/main/img\ list\ black.svg');
+  list-style-image: url('/assets/main/black.svg');
   padding-top: 20px;
 }
 
@@ -142,6 +142,7 @@ a{
 @media screen and (max-width: 7000px) {
   body {
       overflow-x: hidden !important;
+      
   }
 
   .title {
@@ -158,6 +159,8 @@ a{
     width: 300px !important;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    
   }
 
   .card-black{
@@ -165,7 +168,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
 
