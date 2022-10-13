@@ -68,15 +68,15 @@
 }
 
 
-ul {
+ul li{
   list-style-image: url('/assets/main/img\ list.svg');
-}
-
-.ul-card-black{
-  list-style-image: url('/assets/main/img\ list\ black.svg');
   padding-top: 20px;
 }
 
+.ul-card-black li{
+  list-style-image: url('/assets/main/img\ list\ black.svg');
+  padding-top: 20px;
+}
 
 
 .button{
