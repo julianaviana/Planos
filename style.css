@@ -74,7 +74,8 @@ ul li{
 }
 
 .ul-card-black li{
-  list-style-image: url('/assets/main/black.svg');
+  list-style: none;
+  /* list-style-image: url('/assets/main/black.svg'); */
   padding-top: 20px;
 }
 
