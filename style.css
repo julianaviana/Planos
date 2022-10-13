@@ -9,6 +9,7 @@
   background-color: #E5E5E5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
 }
 
 .title {
