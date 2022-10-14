@@ -1,9 +1,10 @@
 
+html, body{ overflow-x: hidden; }
+
 .body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
-  font-weight: 400;
   line-height: 1.5;
   color: #212529;
   background-color: #E5E5E5;
@@ -84,11 +85,11 @@ ul li{
 }
 
 .button-1{
-  margin-top: 100px;
+  padding-top: 88px;
 }
 
 .button-2{
-  margin-top: 50px;
+  padding-top: 45px;
 }
 
 
@@ -96,9 +97,9 @@ ul li{
 .button button {
   background-color: #7553E2;
   margin-top: 50px;
-  border-radius: 20px;
+  border-radius: 15px;
   border: none;
-  padding: 10px;
+  padding: 15px 40px;
 }
 
 .button-top button{
@@ -112,21 +113,20 @@ ul li{
   left: 10px;
 }
 
-
 .button :hover{
   background-color: #ffffff !important;
-  background-color: #7553E2;
-  margin-top: 50px;
-  border-radius: 20px;
-  border: none;
-  padding: 10px;
   color: #7553E2 !important;
-  transition: 0.1s;
 }
+
+
 
 a{
   text-decoration: none !important;
-  color: #e0e0e0 !important
+  color: #e0e0e0 !important;
+}
+
+a:hover{
+  text-decoration: none !important;
 }
 
 .img-footer{
@@ -136,13 +136,7 @@ a{
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
-  html, body 
-  { 
-   height: 100%;
-   overflow-x: hidden !important
-  }
-  
+@media screen and (max-width: 1200px) {
 
   .title {
     color: rgb(0, 0, 0);
@@ -155,7 +149,7 @@ a{
   }
 
   .card-white, .card-black{
-    width: 70% !important;
+    width: 300px !important;
     margin-bottom: 50px;
   }
 
