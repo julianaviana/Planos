@@ -7,9 +7,6 @@
   line-height: 1.5;
   color: #212529;
   background-color: #E5E5E5;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-  overflow-x: hidden;
 }
 
 .title {
@@ -51,7 +48,7 @@
 
 .card-title {
   color: #7553E2;
-  padding-left: 20px;
+  padding-left: 20px
 }
 
 .card-subtitle {
@@ -140,10 +137,12 @@ a{
 }
 
 @media screen and (max-width: 600px) {
-  body {
-      overflow-x: hidden !important;
-      
+  html, body 
+  { 
+   height: 100%;
+   overflow-x: hidden !important
   }
+  
 
   .title {
     color: rgb(0, 0, 0);
@@ -156,7 +155,7 @@ a{
   }
 
   .card-white, .card-black{
-    width: 92% !important;
+    width: 70% !important;
     margin-bottom: 50px;
   }
 
