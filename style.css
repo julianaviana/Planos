@@ -1,4 +1,3 @@
-
 html, body{ overflow-x: hidden; }
 
 .body {
@@ -29,28 +28,34 @@ html, body{ overflow-x: hidden; }
   justify-content: center;
 }
 
+
+
 .card-white {
   background-color: rgb(255, 255, 255);
   color: Black;
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.card-white .card-title {
-  margin-top: 40px;
 }
 
 .card-black {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+
+.card-white, .card-black{
   padding: 20px;
   border-radius: 20px;
-  height: 820px;
+  height: 850px;
 }
+
+
+
 
 .card-title {
   color: #7553E2;
   padding-left: 20px
+}
+
+.card-white .card-title {
+  margin-top: 40px;
 }
 
 .card-subtitle {
@@ -64,9 +69,6 @@ html, body{ overflow-x: hidden; }
   font-size: 15px;
 }
 
-.card-body{
-  height: 500px;
-}
 
 
 ul li{
