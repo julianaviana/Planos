@@ -45,6 +45,7 @@ html, body{ overflow-x: hidden; }
   color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 20px;
+  height: 820px;
 }
 
 .card-title {
@@ -72,8 +73,12 @@ ul li{
   padding-top: 20px;
 }
 
+ul .img-ul-2{
+  list-style-image: url( './assets/main/botao-x.png');
+  color: #5e5e5e;
+}
+
 .ul-card-black li{
-  /* list-style: none; */
   list-style-image: url('./assets/main/black.png');
   padding-top: 20px;
 }
@@ -84,19 +89,23 @@ ul li{
   justify-content: center;
 }
 
-.button-1{
-  padding-top: 88px;
+.button-3 {
+  padding-top: 30px;
 }
 
 .button-2{
-  padding-top: 45px;
+  padding-top: 30px;
 }
+
+.button-1{
+  padding-top: 30px;
+}
+
 
 
 
 .button button {
   background-color: #7553E2;
-  margin-top: 50px;
   border-radius: 15px;
   border: none;
   padding: 15px 40px;
@@ -116,6 +125,7 @@ ul li{
 .button :hover{
   background-color: #ffffff !important;
   color: #7553E2 !important;
+ 
 }
 
 
@@ -151,10 +161,7 @@ a:hover{
   .card-white, .card-black{
     width: 300px !important;
     margin-bottom: 50px;
-  }
-
-  .card-body{
-    height: auto;
+    height: 820px !important;
   }
 
   .button-1, .button-2, .button-3 {
