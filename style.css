@@ -61,6 +61,7 @@ html, body{ overflow-x: hidden; }
 .description {
   color: #5e5e5e;
   padding-left: 20px;
+  font-size: 15px;
 }
 
 .card-body{
@@ -73,10 +74,16 @@ ul li{
   padding-top: 20px;
 }
 
-ul .img-ul-2{
+.img-ul-2{
   list-style-image: url( './assets/main/botao-x.png');
   color: #5e5e5e;
 }
+/* 
+.ul-card-black .img-ul-black-2{
+  list-style-image: url( './assets/main/botao-x.png');
+  color: #5e5e5e;
+} */
+
 
 .ul-card-black li{
   list-style-image: url('./assets/main/black.png');
@@ -92,6 +99,7 @@ ul .img-ul-2{
 .button-3 {
   padding-top: 30px;
 }
+
 
 .button-2{
   padding-top: 30px;
