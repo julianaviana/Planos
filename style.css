@@ -116,10 +116,24 @@ ul li{
 
 .button button {
   background-color: #7553E2;
-  border-radius: 15px;
+  border-radius: 13px;
   border: none;
-  padding: 15px 40px;
+  padding: 15px 50px;
 }
+
+
+.button :hover{
+  background-color: #ffffff !important;
+  color: #7553E2 !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: #e0e0e0 !important;
+}
+
+
+
 
 .button-top button{
   background-color: #7553E2;
@@ -130,23 +144,6 @@ ul li{
   position: relative;
   bottom: 40px;
   left: 10px;
-}
-
-.button :hover{
-  background-color: #ffffff !important;
-  color: #7553E2 !important;
- 
-}
-
-
-
-a{
-  text-decoration: none !important;
-  color: #e0e0e0 !important;
-}
-
-a:hover{
-  text-decoration: none !important;
 }
 
 .img-footer{
