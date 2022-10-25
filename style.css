@@ -7,6 +7,7 @@ html, body{ overflow-x: hidden; }
   line-height: 1.5;
   color: #212529;
   background-color: #E5E5E5;
+  font-family: sans-serif;
 }
 
 .title {
@@ -28,6 +29,10 @@ html, body{ overflow-x: hidden; }
   justify-content: center;
 }
 
+.Seu-plano{
+  color: #8B90A0;
+  font-size: 12px;
+}
 
 
 .card-white, .card-black {
@@ -83,8 +88,7 @@ ul li{
 
 .tootipv{
   width: 15px;
-  opacity: 5;
-   opacity : 0.5; 
+  opacity : 0.5; 
 }
 
 .button{
@@ -108,23 +112,25 @@ ul li{
 
 
 
-.button button {
+button  {
   border-style: solid;
   border-color: #7553E2;
-  border-radius: 13px;
+  border-radius: 13px !important;
   padding: 15px 50px;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
+  color: #7553E2 !important;
 }
 
 
 .button :hover{
   background-color: #7553E2 !important;
   color: #fcfcfc !important;
+  border-radius: 13px;
+  transition: 0.1s;
 }
 
 a{
   text-decoration: none !important;
-  color: #7553E2 !important;
 }
 
 
@@ -132,11 +138,12 @@ a{
 
 
 .button-top button{
-  background-color: #7553E2;
-  color: #ffffff;
-  border-radius: 20px;
+  background-color: #7553E2 !important;
+  color: #ffffff !important;
+  border-radius: 100px !important;
   border: none;
   padding: 10px;
+  padding-right: 20px;
   position: relative;
   bottom: 40px;
   left: 10px;
