@@ -1,149 +1,160 @@
+/* GERAIS */
+
+
 html, body{ overflow-x: hidden; }
 
 .body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   line-height: 1.5;
   color: #212529;
   background-color: #E5E5E5;
-  font-family: sans-serif;
 }
 
-.title {
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+@font-face {
+  font-family:"SF Pro Display Bold";
+  src:url("./fonts/SF-Pro-Display-Bold.OTF") format("opentype");
+}
+
+@font-face{
+  font-family:"SF Pro Display Medium";
+  src:url("./fonts/SF-Pro-Display-Medium.OTF") format("opentype");
+}
+
+@font-face{
+  font-family:"SF Pro Display";
+  src:url("./fonts/SF-Pro-Display-Regular.OTF") format("opentype");
+}
+
+h1,h2,h3,a,.btn{
+  font-family:'SF Pro Display Bold' Arial, Helvetica, sans-serif;
+}
+
+p,input,select{
+  font-family:'SF Pro Display', Arial, Helvetica, sans-serif;
+}
+
+h2{
+  font-size: 2.3rem;
+}
+
+h6{
+  font-size: 1.2rem;
+}
+
+
+/* HEADER */
+
+
+h1 {
+  font-size: 2.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
-
 .subtitle {
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 50px;
   font-size: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.Seu-plano{
-  color: #8B90A0;
-  font-size: 12px;
+  text-align: center;
 }
 
 
-.card-white, .card-black {
+/* CARD */
+
+
+.card {
   background-color: rgb(255, 255, 255);
   color: Black; 
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
-
-
 .card-title {
   color: #7553E2;
   padding-left: 20px;
-  margin-top: -20px 
-}
-
-.card-white .card-title {
   margin-top: 20px;
 }
-
+.card-2 .card-title{
+  margin-top: -20px
+}
 .card-subtitle {
   width: 1000px;
   padding-left: 20px;
   padding-top: 10px;
+}
+.Seu-plano{
+  color: #8B90A0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 1rem 0;
 }
 
 .description {
   color: #5e5e5e;
   padding-left: 20px;
   font-size: 15px;
-  
 }
 
 
+/* LISTA */
+
+
+ul{
+  min-height: 440px;
+}
 
 ul li{
-  list-style-image: url('./assets/main/purple.png');
+  list-style-image: url('./assets/main/puple.png');
   padding-top: 20px;
 }
-
 .img-ul-2{
   list-style-image: url( './assets/main/botao-x.png');
   color: #5e5e5e;
 }
-
 .ul-card-black .img-ul-black-2{
   list-style-image: url( './assets/main/botao-x.png');
   color: #5e5e5e;
 }
-
-
 .ul-card-black li{
   list-style-image: url('./assets/main/purple.png');
   padding-top: 20px;
 }
-
-.tootipv{
+.tootip{
   width: 15px;
   opacity : 0.5; 
 }
 
+
+/* BOTÕES */
+
+
 .button{
   display: flex;
   justify-content: center;
-}
-
-.button-3 {
   padding-top: 30px;
 }
-
-
-.button-2{
-  padding-top: 30px;
-}
-
-.button-1 {
-  padding-top: 30px;
-}
-
-
-
-
-button  {
+button {
   border-style: solid;
   border-color: #7553E2;
   border-radius: 13px !important;
   padding: 15px 50px;
-  background-color: #ffffff !important;
-  color: #7553E2 !important;
+  background-color: #ffffff;
+  color: #7553E2 ;
 }
-
-
 .button :hover{
-  background-color: #7553E2 !important;
-  color: #fcfcfc !important;
+  background-color: #7553E2;
+  color: #fcfcfc;
   border-radius: 13px;
   transition: 0.1s;
 }
-
-a{
-  text-decoration: none !important;
-}
-
-
-
-
-
 .button-top button{
-  background-color: #7553E2 !important;
-  color: #ffffff !important;
+  background-color: #7553E2;
+  color: #ffffff;
   border-radius: 100px !important;
+  align-items: center;
   border: none;
   padding: 10px;
   padding-right: 20px;
@@ -152,32 +163,33 @@ a{
   left: 10px;
 }
 
-.img-footer{
-  width: 100px;
+/* FOOTER */
+
+
+.footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+/* RESPONSIVO */
+
 @media screen and (max-width: 1200px) {
 
-  .title {
+  h1 {
+    font-size: 2rem;
     color: rgb(0, 0, 0);
     text-align: center;
+    padding-top: 60px;
   }
-
   .subtitle{
     text-align: center;
     margin-top: 20px;
   }
-
-  .card-white, .card-black{
+  .card{
     width: 330px !important;
     margin-bottom: 50px;
   }
-
-
-
 
 }
 
