@@ -1,14 +1,20 @@
 /* GERAIS */
+<<<<<<< HEAD
 
 
 html, body{ overflow-x: hidden; }
+=======
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
 
+
+html, body{ overflow-x: hidden; }
 .body {
   margin: 0;
   font-size: 1rem;
   line-height: 1.5;
   color: #212529;
   background-color: #E5E5E5;
+<<<<<<< HEAD
 }
 
 @font-face {
@@ -42,18 +48,30 @@ h6{
   font-size: 1.2rem;
 }
 
+=======
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
 
 /* HEADER */
 
 
+<<<<<<< HEAD
 h1 {
   font-size: 2.5rem;
+=======
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 80px;
 }
 .subtitle {
+<<<<<<< HEAD
   padding-bottom: 50px;
   font-size: 20px;
   text-align: center;
@@ -63,6 +81,20 @@ h1 {
 /* CARD */
 
 
+=======
+  color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* CARD */
+
+
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
 .card {
   background-color: rgb(255, 255, 255);
   color: Black; 
@@ -84,6 +116,7 @@ h1 {
 }
 .Seu-plano{
   color: #8B90A0;
+<<<<<<< HEAD
   font-size: 14px;
   font-weight: 400;
 }
@@ -92,6 +125,10 @@ h1 {
   padding: 1rem 0;
 }
 
+=======
+  font-size: 12px;
+}
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
 .description {
   color: #5e5e5e;
   padding-left: 20px;
@@ -101,10 +138,13 @@ h1 {
 
 /* LISTA */
 
+<<<<<<< HEAD
 
 ul{
   min-height: 440px;
 }
+=======
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
 
 ul li{
   list-style-image: url('./assets/main/puple.png');
@@ -122,7 +162,11 @@ ul li{
   list-style-image: url('./assets/main/purple.png');
   padding-top: 20px;
 }
+<<<<<<< HEAD
 .tootip{
+=======
+.tootipv{
+>>>>>>> dc32990b247db816978be4e7a6dbe7c37c0d509a
   width: 15px;
   opacity : 0.5; 
 }
